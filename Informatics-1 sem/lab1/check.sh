@@ -1,4 +1,4 @@
 #!/bin/bash
 wget http://factorized.net/crusoe.txt
-grep  'friday' crusoe.txt | wc -w
+grep -o -y  'friday' crusoe.txt | wc -l
 rm crusoe.txt
