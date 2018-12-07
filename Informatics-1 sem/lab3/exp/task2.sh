@@ -2,8 +2,8 @@
 
 wget http://factorized.net/patterns.txt
 
-egrep -w '\b[A-z]*\b' patterns.txt
+egrep  '\b[A-z]*\b' patterns.txt
 
-egrep -w '\b[0-9]*\b' patterns.txt
+egrep  '\b[0-9]*\b' patterns.txt
 
 rm patterns.txt
