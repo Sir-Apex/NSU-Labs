@@ -1,0 +1,13 @@
+
+#!/bin/bash
+if [ "$3" ]
+
+then
+
+./calc $1 $2 $3
+
+else
+
+./calc $1 $2 $oper
+
+fi
